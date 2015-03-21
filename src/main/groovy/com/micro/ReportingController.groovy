@@ -18,6 +18,7 @@ class ReportingController {
 
     @RequestMapping(value = "/api/clients", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public String addNewClient(@RequestBody ClientRepresentation clientRepresentation)  {
+        clients.add(clientRepresentation);
         return "new client registered "+ clientRepresentation.firstName;
     }
 
