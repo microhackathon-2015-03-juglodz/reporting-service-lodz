@@ -1,9 +1,9 @@
 {
     "lodz": {
-        "this": "com/ofg/reporting-service-lodz",
+        "this": "com/micro/reporting-service-lodz",
         "dependencies": {
             "collerator": {
-                "path": "com/ofg/some-other-service"
+                "path": "com/micro/some-other-service"
             }
         }
     }
